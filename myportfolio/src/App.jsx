@@ -477,9 +477,23 @@ export default function Portfolio() {
         <div style={{ position:"absolute", top:"50%", left:0, right:0, height:1,
           background:"linear-gradient(90deg,transparent,#00D4FF08,transparent)", pointerEvents:"none" }} />
 
-        <div style={{ maxWidth:940, margin:"0 auto", width:"100%", position:"relative", zIndex:1 }}>
-          <div style={{ display:"flex", gap:60, alignItems:"center", flexWrap:"wrap" }}>
-            <div style={{ flex:1, minWidth:300, animation:"fadeUp 0.9s ease both" }}>
+<div style={{
+  width: "100%",
+  maxWidth: "1600px",
+  margin: "0",
+  padding: "0 60px",
+  position: "relative",
+  zIndex: 1
+}}>
+<div
+  style={{
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: "100%",
+    gap: "80px"
+  }}
+>            <div style={{ width: "48%", animation:"fadeUp 0.9s ease both" }}>
               {/* Eyebrow */}
               <div style={{ display:"inline-flex", alignItems:"center", gap:10, marginBottom:22,
                 padding:"7px 16px", borderRadius:30, border:"1px solid #00D4FF33",
