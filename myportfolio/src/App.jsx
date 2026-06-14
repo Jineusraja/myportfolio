@@ -761,12 +761,11 @@ export default function Portfolio() {
             <div style={{ color:"#334155", fontSize:12 }}>Full Stack Developer · Bengaluru</div>
           </div>
         </div>
-        <div style={{ color:"#1E293B", fontSize:12, fontFamily:"monospace" }}>{"// crafted with React · © 2026"}</div>
+        <div style={{ color:"#1E293B", fontSize:12, fontFamily:"monospace" }}>{"© Jineus Raja 2026"}</div>
         <div style={{ display:"flex", gap:20 }}>
           {[
             { label:"LinkedIn", href:`https://${DATA.linkedin}`, color:"#00D4FF" },
             { label:"GitHub", href:`https://${DATA.github}`, color:"#A855F7" },
-            { label:"Portfolio", href:`https://${DATA.portfolio}`, color:"#10B981" },
           ].map(({ label, href, color }) => (
             <a key={label} href={href} target="_blank" rel="noreferrer"
               style={{ color:"#334155", fontSize:13, textDecoration:"none",
